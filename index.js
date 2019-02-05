@@ -3,7 +3,8 @@ function takeNumber(katzDeli, otherDeli){
   var i
   for (i = 0; i<katzDeli.length; i++){
    	katzDeli.push(`${otherDeli}`);
-   	return(`Welcome, ${otherDeli}. You are number ${katzDeli.length} inline.`);
+   	return(`Welcome, ${otherDeli}. You are number ${katzDeli.length}
+   	} inline.`);
 }
 function nowServing(katzDeli) {
   for( var i = 0; i < katzDeli.length; i++) {
